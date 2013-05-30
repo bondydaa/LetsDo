@@ -47,22 +47,27 @@
 
       <form class="events">
         <!-- Label and text input -->
-        <label for="loc1">1.</label>
-        <input type="text" id="loc1" name="loc1" value="Bongo Room" required>
-        <a href="#"><span class="add">+</span></a>
-        <a href="#"><span class="remove">-</span></a>
-<!--         <label for="loc2">2.</label> 
-        <input type="text" id="loc2" name="loc2" value="Toast">
-        <label for="loc3">3.</label>
-        <input type="text" id="loc3" name="loc3" value="Batter 'n' Berries">
-        <label for="loc4">4.</label>
-        <input type="text" id="loc3" name="loc4" value="Golden Apple"> -->
+          <label for="loc1" class="loc1">1.</label>
+          <input type="text" id="loc1" name="loc1" value="Bongo Room" required>
+            <a href="#"><span class="add loc1">+</span></a>
+            <a href="#"><span class="remove loc1">-</span></a>
+          <label for="loc2">2.</label> 
+          <input type="text" id="loc2" name="loc2" value="Toast">
+            <a href="#"><span class="add loc2">+</span></a>
+            <a href="#"><span class="remove loc2">-</span></a>
+          <label for="loc3">3.</label>
+          <input type="text" id="loc3" name="loc3" value="Batter 'n' Berries">
+          <a href="#"><span class="add loc3">+</span></a>
+            <a href="#"><span class="remove loc3">-</span></a>
+          <label for="loc4">4.</label>
+          <input type="text" id="loc4" name="loc4" value="Golden Apple">
+          <a href="#"><span class="add loc4">+</span></a>
+          <a href="#"><span class="remove loc4">-</span></a>
 
       <div class="row">
       <h4> Beginning time range</h4>
         
-        <label for="hr"></label>
-        <select class="four columns add-bottom" required id="hr" name="startHr">
+        <select class="four columns add-bottom" required name="startHr">
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
@@ -92,8 +97,7 @@
 
         <h4> End time range</h4>
         
-        <label for="hr"></label>
-        <select class="four columns add-bottom" required id="hr" name="endHr">
+        <select class="four columns add-bottom" required name="endHr">
           <option value="1">1</option>
           <option value="2">2</option>
           <option value="3">3</option>
