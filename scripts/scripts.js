@@ -1,12 +1,19 @@
-$(document).ready(function(){
-	$('.events input, label, a').not('#loc1, .loc1').hide()
-	$('.loc1').find('.add').click(function(){
-		$('.events input, label, a').not('#loc3, .loc3, #loc4, .loc4').show()
-	})
-	$('.loc2').find('.remove').click(function(){
-		$('.events input, label, a').not('#loc1, .loc1').hide()
-	})
-	$('.loc2').find('.add').click(function(){
-		$('.events inputs, label, a').not('#loc4, .loc4').show()
-	})
+$(function() {
+        var addDiv = $('#addNewLoc');
+        var i = $('#addNewLoc p').size() + 1;
+        
+        $('#addNew').on('click', function() {
+                if(i<=4){
+                        $('<p><input type="text" name="loc' + i +'" value="" placeholder="Enter Another Location!"><a href="#" class="remNew">Remove</a> </p>').appendTo(addDiv);
+                        i++;
+                // return false;
+                        $('.remNew').on('click', function() { 
+                                $(this).parents('p').remove();
+                                i--;
+                                return false;
+                        });
+                };
+                return false;
+        });
+
 });

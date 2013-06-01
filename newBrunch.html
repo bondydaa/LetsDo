@@ -46,21 +46,12 @@
       <h4>Give your guests up to 4 location options</h4>
 
       <form class="events">
-        <!-- Label and text input -->
-          <label for="loc1" class="loc1">1.</label>
-          <input type="text" id="loc1" name="loc1" value="Bongo Room" required>
-            <a href="#" class="loc1"><span class="add">+</span></a>
-          <label for="loc2" class="loc2">2.</label> 
-          <input type="text" id="loc2" name="loc2" value="Toast">
-            <a href="#" class="loc2"><span class="add">+</span></a>
-            <a href="#" class="loc2"><span class="remove">-</span></a>
-          <label for="loc3" class="loc3">3.</label>
-          <input type="text" id="loc3" name="loc3" value="Batter 'n' Berries">
-            <a href="#" class="loc3"><span class="add">+</span></a>
-            <a href="#" class="loc3"><span class="remove">-</span></a>
-          <label for="loc4" class="loc4">4.</label>
-          <input type="text" id="loc4" name="loc4" value="Golden Apple">
-            <a href="#" class="loc4"><span class="remove">-</span></a>
+        <div id="addNewLoc">
+          <p>
+            <input type="text" name="loc" placeholder="Enter a Location!">
+            <a href="#" id="addNew" class="add">+</a>
+          </p>
+        </div>
 
       <div class="row">
       <h4> Beginning time range</h4>
