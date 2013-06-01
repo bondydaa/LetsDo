@@ -51,6 +51,7 @@
 /* #Basic Styles
 ================================================== */
 	body {
+		height: 1000px;
 		background: #fff;
 		font-family: 'Nunito', sans-serif;
 		color: #444;
@@ -312,7 +313,7 @@
 
 
 .background{
-	padding-top: 2%;
+	padding-top: 5%;
 	padding-bottom: 40px;
 	background-image: url("../images/bg-04.jpg");
 	background-size: cover;
@@ -341,6 +342,51 @@
 	padding: 5px;
 	margin: 10px;
 }
+
+
+/*.blink {
+
+   -webkit-animation: fadeout 2s; /* Safari and Chrome */
+    -webkit-transition-duration-delay: 7s;
+
+
+@keyframes fadeout {
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
+
+@-webkit-keyframes fadeout { /* Safari and Chrome */
+    from {
+        opacity:1;
+    }
+    to {
+        opacity:0;
+    }
+}
+
+.blink {
+    -webkit-animation: blink 1s linear 5;
+    -moz-animation: blink 1s linear 5;
+    -ms-animation: blink 1s linear 5;
+    -o-animation: blink 1s linear 5;
+    animation: blink 1s linear 5;
+    -webkit-animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+
+
+
 
 @media only screen and (max-width: 450px) {	
 
