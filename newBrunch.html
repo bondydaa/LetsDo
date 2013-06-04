@@ -8,7 +8,7 @@
   <!-- Basic Page Needs
   ================================================== -->
   <meta charset="utf-8">
-  <title>Let's Brunch</title>
+  <title>Let's Do</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -19,8 +19,11 @@
   <!-- CSS
   ================================================== -->
   <link rel="stylesheet" href="stylesheets/skeleton.css">
-  <link rel="stylesheet" href="stylesheets/layout.css">
   <link rel="stylesheet" href="stylesheets/custom.css">
+
+  <!-- FONT
+  ================================================== -->
+  <link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
 
   <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -36,86 +39,68 @@
 </head>
   <body>
 
-    <header class="container sixteen columns" style="margin-top: 80px;">
-      <h1>Let's Brunch</h1>
-      <hr/>
-    </header>
+    <div class="background">
 
-  	<div class="container"> 
+      <div class="foreground one column">
 
-      <h4>Give your guests up to 4 location options</h4>
+        <h1 class="header">Let's Do...<span class="blink">l</span></h1>
 
-      <form class="events">
+        <h5 align="center">The quickest, simplest way to force your friends to make a decision</h5>
+
+        <hr/>
+      
+        <h3>Input up to 4 location options: </h3>
+
+        <form class="events">
         <div id="addNewLoc">
           <p>
-            <input type="text" name="loc" placeholder="Enter a Location!">
-            <a href="#" id="addNew" class="add">+</a>
+            <input type="text" name="loc1" placeholder="Enter a Location">
+            <a href="#" id="addNew" class="add"><div class="button plus">+</div></a>
           </p>
         </div>
 
-      <div class="row">
-      <h4> Beginning time range</h4>
-        
-        <select class="four columns add-bottom" required name="startHr">
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-          <option value="11">11</option>
-          <option value="12">12</option>
-        </select>
-        <select class="four columns add-bottom" required name="startMin">
-          <option value="00">00</option>
-          <option value="15">15</option>
-          <option value="30">30</option>
-          <option value="45">45</option>
-        </select>
-         <select class="four columns add-bottom" required name="startTod">
-          <option value="am">am</option>
-          <option value="pm">pm</option>
-        </select>
-      </div>
+        <br>
+          
+        <h3>And 4 time options: </h3>
 
-      <div class="row">
-
-        <h4> End time range</h4>
-        
-        <select class="four columns add-bottom" required name="endHr">
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-          <option value="11">11</option>
-          <option value="12">12</option>
-        </select>
-        <select class="four columns add-bottom" required name="endMin">
-          <option value="00">00</option>
-          <option value="15">15</option>
-          <option value="30">30</option>
-          <option value="45">45</option>
-        </select>
-         <select class="four columns add-bottom" required name="endTod">
-          <option value="am">am</option>
-          <option value="pm">pm</option>
-        </select>
+       <div id="addNewTime">
+            <p>
+              <select name="time1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+              </select>
+              <select name="TOD1">
+                <option value="am">am</option>
+                <option value="pm">pm</option>
+              </select>
+              <a href="#" id="addTNew" class="add">+</a>
+            </p>
         </div>
+    
 
-        <a href="newResults.html"><div class="button full-width eight columns">Submit</div></a>
-      </form>
-  	</div>
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-    <script src="scripts/scripts.js"></script>
+        <br>
+        <br>
+
+        <h6 align="center">Voting will end when all votes are collected, or 30minutes before the earliest time</h6>
+
+          <a href="newResults.html"><div class="button full-width">Submit Event</div></a>
+ 
+      </div>
+      
+    </div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="scripts/scripts.js"></script>
+
   </body>
 </html>

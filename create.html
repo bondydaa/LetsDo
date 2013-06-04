@@ -8,7 +8,7 @@
   <!-- Basic Page Needs
   ================================================== -->
   <meta charset="utf-8">
-  <title>Let's Brunch</title>
+  <title>Let's Do</title>
   <meta name="description" content="">
   <meta name="author" content="">
 
@@ -19,8 +19,11 @@
   <!-- CSS
   ================================================== -->
   <link rel="stylesheet" href="stylesheets/skeleton.css">
-  <link rel="stylesheet" href="stylesheets/layout.css">
   <link rel="stylesheet" href="stylesheets/custom.css">
+
+  <!-- FONT
+  ================================================== -->
+  <link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
 
   <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -33,24 +36,45 @@
   <link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
   <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 
+
 </head>
+
   <body>
-  	 <header class="container sixteen columns" style="margin-top: 80px;">
-      <h1>Let's Brunch</h1>
-      <hr/>
-    </header>
 
-  	<div class="container"> 
+    <div class="background">
+
+      <div class="foreground one column">
+
+          <h1 class="header">Let's Do...<span class="blink">l</span></h1>
+
+          <h5 align="center">The quickest, simplest way to force your friends to make a decision</h5>
+
+        
+
+        <hr/>
       
-      <h3>Name your event.</h3> <h5>(Your Guests will use this to login to vote)</h5> 
+        <h3>Let's Do: <input type="text" name="event_name" placeholder="Ex. Brunch, Drinks after work, Gamenight">
 
-      <form>
-        <input type="text" name="event" value="">
-        <a href="newBrunch.html"><div class="button full-width eight columns">Next</div></a>
-      </form>
+        <br>
+          
+        When? <input type="date" name="event_date" placeholder="">
 
+        <br>
 
-  	</div>
+        How many people? <input type="number" name="event_people" placeholder=""></h3>
+
+        <br>
+        
+          <a href="newEvent.html"><div class="button createEvent full-width">Start</div></a>
+
+        
+
+      </div>
+      
+    </div>
 
   </body>
+
+
+
 </html>
