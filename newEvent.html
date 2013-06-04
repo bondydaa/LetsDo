@@ -37,7 +37,7 @@
   <link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
 
 </head>
-    <body>
+  <body>
 
     <div class="background">
 
@@ -49,41 +49,58 @@
 
         <hr/>
       
-        <h3 align="center">Alright, your event is ready to go!<h3> 
-        <h6 align="center">This is what your guests will see:</h6>
+        <h3>Input up to 4 location options: </h3>
 
-          <div class="eventBlock">
-            <h3>Hey! You've been invite to vote for: EVENT NAME </h3>
+        <form class="events">
+        <div id="addNewLoc">
+          <p>
+            <input type="text" name="loc1" placeholder="Enter a Location">
+            <a href="#" id="addNew" class="add button plus">+</a>
+          </p>
+        </div>
 
-            <br>
-         
-            <ol><h2>Location Options</h2>
-              <li>Loc1</li>
-              <li>Loc2</li>
-              <li>Loc3</li>
-              <li>Loc4</li>
-            </ol>
-
-            <ol><h2>Time Options</h2>
-              <li>Time1</li>
-              <li>Time2</li>
-              <li>Time3</li>
-              <li>Time4</li>
-            </ol>
-
-          </div>  
-
-
-        <h2 align="center">Looks good?</h2> <h4 align="center">Send this link to your guests so they can vote: </h4> <input type="text"></input>
-
-        <h6 align="center">Once you've sent out the link, watch the results page to see which time and place wins.</h6>
         <br>
-        
-           <a href="votingresults.html"><div class="button full-width eight columns">Go to Results Page</div></a>
+          
+        <h3>And 4 time options: </h3>
 
+       <div id="addNewTime">
+            <p>
+              <select name="time1">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+              </select>
+              <select name="TOD1">
+                <option value="am">am</option>
+                <option value="pm">pm</option>
+              </select>
+              <a href="#" id="addTNew" class="add">+</a>
+            </p>
+        </div>
+    
+
+        <br>
+        <br>
+
+        <h6 align="center">Voting will end when all votes are collected, or 30minutes before the earliest time</h6>
+
+          <a href="newResults.html"><div class="button full-width">Submit Event</div></a>
+ 
       </div>
-
+      
     </div>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="scripts/scripts.js"></script>
 
   </body>
 </html>
