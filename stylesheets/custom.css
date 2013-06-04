@@ -67,11 +67,7 @@
 	  	font-family: 'Nunito', sans-serif; }
 		font-weight: normal; }
 	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
-<<<<<<< HEAD
-	h1 { font-size: 72px; line-height: 64px; margin-bottom: 15px;}
-=======
 	h1 { font-size: 64px; line-height: 64px; margin-bottom: 15px;}
->>>>>>> master-nate
 	h2 { font-size: 35px; line-height: 40px; margin-bottom: 10px; }
 	h3 { font-size: 28px; line-height: 34px; margin-bottom: 8px; }
 	h4 { font-size: 21px; line-height: 30px; margin-bottom: 4px; }
@@ -97,11 +93,7 @@
 	hr { border: solid #000; border-width: 5px 0 0; clear: both; margin: 10px 0 30px; height: 0; }
 
 	h1 {
-<<<<<<< HEAD
-		margin-top: 5px; 
-=======
 		margin-top: 20px; 
->>>>>>> master-nate
 		color: #000; 
 		text-align:center; 
 		font-weight: 500;
@@ -251,21 +243,13 @@
 		-webkit-transform: translateY(2px);
 		box-shadow: 0 3px 0px #C98A08; 
 	}
-<<<<<<< HEAD
-=======
 
 	.createEvent:active{
 		background: #f5a503;
 		-webkit-transform: translateY(5px);
 		box-shadow: 0 0 0 #C98A08;
 	}
->>>>>>> master-nate
 
-	.createEvent:active{
-		background: #f5a503;
-		-webkit-transform: translateY(5px);
-		box-shadow: 0 0 0 #C98A08;
-	}
 
 
 /* #Forms
@@ -352,8 +336,6 @@
 
 }
 
-<<<<<<< HEAD
-=======
 .header {
 
     display: block;
@@ -371,53 +353,21 @@
 }
  
 
->>>>>>> master-nate
 .eventBlock{
 	background-color: white;
 	border: black;
 	border-radius: 3px;
 	padding: 5px;
-<<<<<<< HEAD
-=======
 	box-shadow: 
         inset 0 5px 0 rgba(0,0,0,.2), 
         0 0 4px rgba(0,0,0,0.1);
->>>>>>> master-nate
 	margin: 10px;
 }
 
 
-<<<<<<< HEAD
-/*.blink {
-
-   -webkit-animation: fadeout 2s; /* Safari and Chrome */
-    -webkit-transition-duration-delay: 7s;
-
-
-@keyframes fadeout {
-    from {
-        opacity:1;
-    }
-    to {
-        opacity:0;
-    }
-}
-
-@-webkit-keyframes fadeout { /* Safari and Chrome */
-    from {
-        opacity:1;
-    }
-    to {
-        opacity:0;
-    }
-}
-
-.blink {
-=======
 
 .blink {
 	color: #5195CE;
->>>>>>> master-nate
     -webkit-animation: blink 1s linear 5;
     -moz-animation: blink 1s linear 5;
     -ms-animation: blink 1s linear 5;
@@ -434,8 +384,6 @@
 }
 
 
-<<<<<<< HEAD
-=======
 .plus{
 	background-color:#f2385a;
 	border-radius: 100%;
@@ -449,7 +397,6 @@
     box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
 
 }
->>>>>>> master-nate
 
 
 
