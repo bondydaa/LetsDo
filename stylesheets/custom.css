@@ -385,12 +385,16 @@
 
 
 .plus{
-	background-color:#f2385a;
-	border-radius: 100%;
+	margin-top: 5px;
+	background: #f2385a;
+	border-radius: 100%; 
 	width: 25px;
-	height: 25px;
-	padding:1%;
+	/* height: 25px; */
+	line-height: 25px;
+	padding: 1% 2%;
+	padding-bottom: 5px;
 	font-size: 2em;
+	text-align: center;
 	font-color: #fff;
 	-webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
     -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
@@ -398,13 +402,18 @@
 
 }
 
+.plus:hover{
+	background: #f2385a;
+	box-shadow: 0 0 0 #fff;
+}
 
 
-@media only screen and (max-width: 450px) {	
+
+@media only screen and (max-width: 480px) and (max-width: 767px) {	
 
 	.foreground{
-		padding: 40px;
-		margin: 5%;
+		padding: 20px;
+		/*margin: 5%;*/
 	}
 
 	.background{
@@ -418,7 +427,7 @@
 	.foreground{
 		max-width: 450px;
 		padding: 40px;
-		margin: 5%;
+		/*margin: 5%;*/
 	}
 }	
 
